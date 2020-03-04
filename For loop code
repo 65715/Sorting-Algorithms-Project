@@ -1,1 +1,16 @@
+/**************************************************************************
+Name: James Kulrich, Chad Wickenheiser
+Date: March 4, 2020
+CS30 Period 4
+Description: Creating a for loop that generates the array to be sorted 
+****************************************************************************/
 
+void setup(){
+  int[] array = {}; // define the array
+ 
+ for (int i = 0; i < 100; i++){ // the for loop will generate 1 random number and add it to the array 100 times
+   array = append(array, int(random(0,100))); 
+   
+ }
+ printArray(array);
+}
