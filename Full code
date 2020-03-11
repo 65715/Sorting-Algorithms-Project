@@ -11,7 +11,8 @@ void setup(){
   int[] array = {}; // define the array
   
  println("------------------------------- UNSOLVED ARRAY --------------------------");
- for (int i = 0; i < 100; i++){ // the for loop will generate 1 random number and add it to the array 100 times
+for (int i = 0; i < 100; i++){ // the for loop will generate 1 random number and add it to the array 100 times //https://stackoverflow.com/questions/19876481/random-numbers-to-array
+
    array = append(array, int(random(0,100))); 
    
  }
@@ -23,6 +24,7 @@ printArray(solved_array); // print the sorted array
  
 }
 
+// https://www.geeksforgeeks.org/bubble-sort/
 void bubble_sort(int[] arr){   // create the function needed 
   int n = arr.length; 
     for (int i = 0; i < n-1; i++){ // the process will repeat as many times as there are elements in the array
